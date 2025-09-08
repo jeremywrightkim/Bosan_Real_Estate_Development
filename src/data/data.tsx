@@ -186,16 +186,19 @@ export const education: TimelineItem[] = [
     date: '2025-',
     location: '부산 해운대구',
     title: '해운대 하버타운 재건축 및 재개발 추진 중',
+    content: '',
   },
     {
     date: '2025-',
     location: '부산 중구 광복동',
     title: '광복동 1가 7일원 토지 1,741.22평 주상복합건설물 개발사업 컨설팅 진행중',
+    content: '',
   },
     {
     date: '-',
     location: '부산, 반도, 동일, 김해 삼계동',
     title: '부산, 반도 동일 김해 삼계동 APT부지매입 부동산 컨설팅 및 부지매입',
+    content: '',
   },
     {
     date: '2008-2011',
@@ -207,6 +210,7 @@ export const education: TimelineItem[] = [
     date: '',
     location: '-',
     title: 'PF사업 KB신탁, PF 340억 신탁해제, 하나캐피탈, 하나은행',
+    content: '',
   },
     {
     date: '2008',
@@ -218,46 +222,55 @@ export const education: TimelineItem[] = [
     date: '2006.01',
     location: '부산',
     title: '`지앤에이치산업개발주식회사` 에서 `조은개발주식회사` 상호변경',
+    content: '',
   },
   {
     date: '2005',
     location: '부산 송도 암남동',
     title: '암남동 589-1번지 외 2,615평 송도 해수욕장 주변, 준주거지역 및 일반주거지역에 대한 지구단위 및 종 변경 공동주택 개발사업 컨설팅 완료',
+    content: '',
   },
     {
     date: '2005.01',
     location: '부산 수영구 남천동',
     title: '남천동 25-1번지 반도건설 계열회사, 반도 모터스㈜ 인피니티 자동차 전시장 컨설팅 완료',
+    content: '',
   },
     {
     date: '2003.07',
     location: '부산 해운대구 우동',
     title: '우동 862번지 일원 상업용지 3,000여평 아파트 개발사업 컨설팅 완료 (한신공영)',
+    content: '',
   },
     {
     date: '2003.01',
     location: '부산',
     title: '지앤에이치산업개발주식회사 부동산개발 및 주택건설업 창업',
+    content: '',
   },
     {
     date: '',
     location: '',
     title: '패션, 논노, 까뜨리네트, 조이너스, 한섬, 파크랜드 패션브랜드 유치 및 매장개설 및 화장품, 이동통신 매장 개설 및 대리점 유치 등',
+    content: '',
   },
   {
     date: '1981-2006',
     location: '부산 중구 광복동',
     title: '부동산 개발 및 중개업 종사',
+    content: '',
   },
   {
     date: '-',
     location: '-',
     title: '육군 병장 3년 만기전역',
+    content: '',
   },
   {
     date: '-',
     location: '-',
     title: '중/고등학교 축구선수 생활, 주장역임 중등부 최우수 선수상 수상',
+    content: '',
   },
 ];
 
