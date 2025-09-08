@@ -6,45 +6,9 @@ interface FormData {
   message: string;
 }
 
-const ContactForm: FC = memo(() => {
-  const defaultData = useMemo(
-    () => ({
-      name: '',
-      email: '',
-      message: '',
-    }),
-    [],
-  );
-
-  const [data, setData] = useState<FormData>(defaultData);
-
-  const onChange = useCallback(
-    <T extends HTMLInputElement | HTMLTextAreaElement>(event: React.ChangeEvent<T>): void => {
-      const {name, value} = event.target;
-
-      const fieldData: Partial<FormData> = {[name]: value};
-
-      setData({...data, ...fieldData});
-    },
-    [data],
-  );
-
-  const handleSendMessage = useCallback(
-    async (event: React.FormEvent<HTMLFormElement>) => {
-      event.preventDefault();
-      /**
-       * This is a good starting point to wire up your form submission logic
-       * */
-      console.log('Data to send: ', data);
-    },
-    [data],
-  );
-
-  const inputClasses =
-    'bg-neutral-700 border-0 focus:border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 rounded-md placeholder:text-neutral-400 placeholder:text-sm text-neutral-200 text-sm';
-
+const ContactForm: FC = memo(() => {  
   return (
-    <form className="grid min-h-[10px] grid-cols-1 gap-y-4" method="POST" onSubmit={handleSendMessage}>       
+    <form className="grid min-h-[10px] grid-cols-1 gap-y-4" method="POST">       
     </form>
   );
 });
