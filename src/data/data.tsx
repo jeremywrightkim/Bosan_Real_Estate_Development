@@ -13,7 +13,7 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
+import heroImage from '../images/new-york-city-sunset.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -69,25 +69,23 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `보산개발㈜`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
-      </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        보산개발㈜은 2003년 설립 이래 부산을 중심으로 
+        <strong className="text-stone-100"> 주거 · 상업 · 복합개발 </strong> 
+        사업을 추진해온 부동산 개발 및 컨설팅 전문기업입니다.        
+        창업 초기부터 
+        <strong className="text-stone-100"> 토지 매입, 도시계획 및 용도변경 컨설팅, 재개발, 재건축 프로젝트 기획, 프로젝트 파이낸싱(PF, Project Financing) 자문 </strong>
+        등 다양한 영역에서 전문성을 축적해왔습니다.
       </p>
     </>
   ),
   actions: [
     {
       href: '/assets/resume.pdf',
-      text: 'Resume',
+      text: 'PDF download',
       primary: true,
       Icon: ArrowDownTrayIcon,
     },
@@ -104,16 +102,16 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `김광섭, 보산개발㈜ 대표이사, 1956년생.
+  1981년부터 부동산 중개 · 개발 업계에 몸담아 오며, 40년이 넘는 경험을 바탕으로 다양한 주거 및 상업시설 프로젝트를 성공적으로 이끌어왔습니다. 
+  이를 통해 보산개발㈜은 안정적인 사업 수행 능력과 신뢰성을 인정받고 있으며, 앞으로도 지역 발전과 도시가치 재고를 위한 혁신적인 개발사업을 지속적으로 추진할 계획입니다.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Nationality', text: '대한민국', Icon: FlagIcon},
+    {label: 'Company', text: '보산개발㈜', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: '부산시, 해운대구', Icon: MapIcon},
+    {label: 'Foundation day', text: '2003.01.13.', Icon: CalendarIcon},
+    {label: 'Category', text: '토지매입, 재개발, 재건축 컨설팅, 프로젝트 파이낸싱 등', Icon: SparklesIcon},
+    //{label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
   ],
 };
 
@@ -364,10 +362,10 @@ export const contact: ContactSection = {
 /**
  * Social items
  */
-export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
-];
+//export const socialLinks1: Social[] = [
+//  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
+//  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+//  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
+//  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
+//  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+//];
