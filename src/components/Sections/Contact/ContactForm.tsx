@@ -1,10 +1,4 @@
-import {FC, memo, useCallback, useMemo, useState} from 'react';
-
-interface FormData {
-  name: string;
-  email: string;
-  message: string;
-}
+import {FC, memo} from 'react';
 
 const ContactForm: FC = memo(() => {  
   return (
