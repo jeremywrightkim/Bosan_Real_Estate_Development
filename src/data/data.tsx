@@ -209,18 +209,6 @@ export const education: TimelineItem[] = [
     title: '부동산 개발 및 중개업 종사',
     content: '',
   },
-  {
-    date: '-',
-    location: '-',
-    title: '육군 병장 3년 만기전역',
-    content: '',
-  },
-  {
-    date: '-',
-    location: '-',
-    title: '중/고등학교 축구선수 생활, 주장역임 중등부 최우수 선수상 수상',
-    content: '',
-  },
 ];
 
 
