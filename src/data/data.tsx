@@ -58,7 +58,7 @@ export const heroData: Hero = {
         <strong className="text-stone-100"> 주거 · 상업 · 복합개발 </strong> 
         사업을 추진해온 부동산 개발 및 컨설팅 전문기업입니다.        
         창업초기부터 
-        <strong className="text-stone-100"> 토지 매입, 도시계획 및 용도변경 컨설팅, 재개발 및 재건축 프로젝트, 프로젝트 파이낸싱(PF, Project Financing) 자문 </strong>
+        <strong className="text-stone-100"> 토지 매입, 도시계획 및 용도변경 컨설팅, 재개발 및 재건축 프로젝트, 프로젝트 파이낸싱(PF) 자문 </strong>
         등 다양한 영역에서 전문성을 축적해왔습니다.
       </p>
     </>
