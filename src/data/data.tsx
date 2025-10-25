@@ -57,8 +57,8 @@ export const heroData: Hero = {
         보산개발㈜은 2003년 설립 이래 부산을 중심으로 
         <strong className="text-stone-100"> 주거 · 상업 · 복합개발 </strong> 
         사업을 추진해온 부동산 개발 및 컨설팅 전문기업입니다.        
-        창업 초기부터 
-        <strong className="text-stone-100"> 토지 매입, 도시계획 및 용도변경 컨설팅, 재개발, 재건축 프로젝트 기획, 프로젝트 파이낸싱(PF, Project Financing) 자문 </strong>
+        창업초기부터 
+        <strong className="text-stone-100"> 토지 매입, 도시계획 및 용도변경 컨설팅, 재개발 및 재건축 프로젝트, 프로젝트 파이낸싱(PF, Project Financing) 자문 </strong>
         등 다양한 영역에서 전문성을 축적해왔습니다.
       </p>
     </>
@@ -90,7 +90,7 @@ export const aboutData: About = {
     {label: 'Company', text: '보산개발㈜', Icon: BuildingOffice2Icon},
     {label: 'Location', text: '부산시, 해운대구', Icon: MapIcon},
     {label: 'Foundation day', text: '2003.01.13.', Icon: CalendarIcon},
-    {label: 'Category', text: '토지매입, 재개발, 재건축 컨설팅, 프로젝트 파이낸싱 등', Icon: SparklesIcon},
+    {label: 'Category', text: '토지매입, 재개발, 재건축 컨설팅, 프로젝트 파이낸싱', Icon: SparklesIcon},
     //{label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
   ],
 };
@@ -221,8 +221,8 @@ export const contact: ContactSection = {
   description: '부동산 개발 관련 상담은 아래 번호로 연락하시면 친절히 안내해 드리겠습니다.',
   items: [
     {
-      type: ContactType.Email,
-      text: '김광섭 직통번호, 010-3838-4989',
+      type: ContactType.Phone,
+      text: '051-245-8989, 051-638-4989, 김광섭(010-3838-4989)',
       
     },
     {
